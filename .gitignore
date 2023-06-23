@@ -1,0 +1,11 @@
+src_bak
+stuff
+.vscode
+.stversions
+.baseline
+log
+model_ckpt
+__pycache__
+!dataset
+**/dataset/*
+!**/dataset/*.npz
