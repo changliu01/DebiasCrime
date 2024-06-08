@@ -1,8 +1,25 @@
-# Mitigating Racial Biases in Crime Prediction via Adversarial Training
+# DebiaseCrime
 
-This is the official implement of our work `Mitigating Racial Biases in Crime Prediction via Adversarial Training`.
+This is the official implement of our work `Breaking the Prejudice Loop: Achieving Unbiased Crime Prediction via Causal Analysis and Adversarial Training`.
 
-If you find it helps, please cite us:
+## Installation
+
+### Quick Start.
+
 ```
-TODO
+pip install -r requirements.txt
 ```
+
+## Running the code
+
+Run our code with default settings:
+
+```
+python main.py
+```
+
+## Results
+Here are the reported results on NYC and CHI datasets:
+![results](./assets/results.png)
+
+

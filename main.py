@@ -14,7 +14,7 @@ from src_dev.STCGNN import STCGNN
 from src_dev.Linear import Linear
 
 parser = argparse.ArgumentParser(description='Model Params')
-parser.add_argument('--model', type=str, default='Linear', choices=['ST-GCN', 'STCGNN', 'Linear'])
+parser.add_argument('--model', type=str, default='STCGNN', choices=['ST-GCN', 'STCGNN', 'Linear'])
 parser.add_argument('--num_workers', type=int, default=0 if 'win' in sys.platform else 4)
 parser.add_argument('--data_path', type=str, default='./dataset/CHI.npz')
 parser.add_argument('--batch_size', type=int, default=32)
